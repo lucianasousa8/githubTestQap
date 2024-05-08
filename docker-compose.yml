@@ -1,0 +1,33 @@
+version: '3'
+
+services:
+  scimgateway:
+    build: ./scimgateway
+    ports:
+      - "8883:8883"
+    restart: always
+    environment:
+      mongodb-new-connector_BASIC_0_USERNAME: lucianalopes
+      mongodb-new-connector_BASIC_0_PASSWORD: admin
+
+      DATABASE_URL: mongodb+srv://lucianalopes:admin@cluster0.nmp3pbg.mongodb.net/qap?
+    volumes:
+      - data:/home/node/app/data
+   
+  forms:
+    depends_on:
+      - scimgateway
+    build: ./forms
+    ports:
+      - "8000:80"
+    restart: always
+  
+     
+
+volumes:
+  data:
+    driver: local
+    driver_opts:
+      o: bind
+      type: none
+      device: /home/luciana/Documents/qscim-files/qap/data
