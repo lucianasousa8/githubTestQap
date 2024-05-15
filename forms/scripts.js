@@ -1,4 +1,4 @@
-const baseUrl = "http://host.docker.internal";
+const baseUrl = "http://172.17.0.1";
 
   async function formHandler(e, form, submitBtn, selectedConnectors) {
     submitBtn.innerHTML = "...";
