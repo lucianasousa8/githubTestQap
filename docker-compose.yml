@@ -10,7 +10,7 @@ services:
       mongodb-new-connector_BASIC_0_USERNAME: lucianalopes
       mongodb-new-connector_BASIC_0_PASSWORD: admin
 
-      DATABASE_URL: mongodb+srv://lucianalopes:admin@cluster0.nmp3pbg.mongodb.net/qap?
+      DATABASE_URL: mongodb+srv://wagner:1234@cluster0.nbqcliu.mongodb.net/qscim?retryWrites=true&w=majority&appName=Cluster0
     volumes:
       - data:/home/node/app/data
    

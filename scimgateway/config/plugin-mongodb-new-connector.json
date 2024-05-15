@@ -79,9 +79,9 @@
   },
   "endpoint": {
     "connection": {
-      "database": "qap",
-      "userCollectionName": "users",
-      "groupCollectionName": "groups"
+      "database": "qscim",
+      "userCollectionName": "user",
+      "groupCollectionName": "group"
     },
     "map": {
       "group": {
