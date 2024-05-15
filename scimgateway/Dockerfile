@@ -30,7 +30,7 @@
   # Copy prisma/ to container
   COPY prisma/ prisma
 
-  ENV DATABASE_URL=mongodb+srv://wagner:1234@cluster0.nbqcliu.mongodb.net/qscim?retryWrites=true&w=majority&appName=Cluster0
+  ENV DATABASE_URL=mongodb+srv://lucianalopes:admin@cluster0.nbqcliu.mongodb.net/qap?retryWrites=true&w=majority&appName=Cluster0
 
   # Running migration to create database tables with Prisma Migrate
   RUN npx prisma generate
