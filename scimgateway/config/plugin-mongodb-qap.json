@@ -19,8 +19,8 @@
     "auth": {
       "basic": [
         {
-          "username": "process.env.mongodb-new-connector_BASIC_0_USERNAME",
-          "password": "process.env.mongodb-new-connector_BASIC_0_PASSWORD",
+          "username": "process.env.mongodb-qap_BASIC_0_USERNAME",
+          "password": "process.env.mongodb-qap_BASIC_0_PASSWORD",
           "readOnly": false,
           "baseEntities": []
         }

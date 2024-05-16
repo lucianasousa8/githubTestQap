@@ -6,7 +6,7 @@
   },
   "item": [
     {
-      "name": "New Connector - mongodb",
+      "name": "qap - mongodb",
       "item": [
         {
           "name": "Health Check",

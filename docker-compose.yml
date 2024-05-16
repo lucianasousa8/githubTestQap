@@ -7,8 +7,8 @@ services:
       - "8883:8883"
     restart: always
     environment:
-      mongodb-new-connector_BASIC_0_USERNAME: lucianalopes
-      mongodb-new-connector_BASIC_0_PASSWORD: admin
+      mongodb-qap_BASIC_0_USERNAME: lucianalopes
+      mongodb-qap_BASIC_0_PASSWORD: admin
 
       DATABASE_URL: mongodb+srv://lucianalopes:admin@cluster0.nmp3pbg.mongodb.net/qap?retryWrites=true&w=majority&appName=Cluster0
     volumes:

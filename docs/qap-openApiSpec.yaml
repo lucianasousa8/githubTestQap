@@ -267,7 +267,7 @@ security:
   - basicAuth: []
 servers:
   - url: http://localhost/api/container//8883
-    description: "New Connector: mongodb Connector"
+    description: "qap: mongodb Connector"
 tags:
   - name: users
     description: Users information

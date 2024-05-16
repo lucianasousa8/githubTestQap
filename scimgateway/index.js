@@ -1,1 +1,1 @@
-const mongodbNewConnector = require('./lib/plugin-mongodb-new-connector')
+const mongodbQap = require('./lib/plugin-mongodb-qap')
