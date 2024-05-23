@@ -266,7 +266,7 @@ components:
 security:
   - basicAuth: []
 servers:
-  - url: http://localhost/api/container//8883
+  - url: http://localhost:3000/api/container/8883
     description: "qap: mongodb Connector"
 tags:
   - name: users

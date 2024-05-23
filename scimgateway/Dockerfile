@@ -16,9 +16,6 @@
   # Copy package.json to container
   COPY package*.json ./
   
-  # Switch the user to "node" before running npm install
-  USER node
-  
   # Docker won't have to install the dependencies again if you change the file
   RUN npm install 
   

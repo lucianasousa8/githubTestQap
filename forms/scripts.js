@@ -1,4 +1,4 @@
-const baseUrl = "http://172.17.0.1";
+const baseUrl = "undefined";
 
   async function formHandler(e, form, submitBtn, selectedConnectors) {
     submitBtn.innerHTML = "...";
